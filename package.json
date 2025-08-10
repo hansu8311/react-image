@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@hs-k/react-image",
+  "version": "0.1.0",
+  "description": "test react image",
+  "keywords": [
+    "react",
+    "utils",
+    "nextjs",
+    "react",
+    "filter"
+  ],
+  "hompage": "https://github.com/hansu8311/react-image#readme",
+  "bugs": {
+    "url": "https://github.com/hansu8311/react-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hansu8311/react-image.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "hansukim",
+    "email": "cjsdyd453@naver.com"
+  },
+  "contributors": [
+    {
+      "name": "hansukim",
+      "email": "cjsdyd453@naver.com"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint '**/*.{js,jsx,ts,tsx}' --fix",
+    "prettier": "prettier --check '**/*.{ts,tsx,js,mjs,cjs,jsx,json,yml}'",
+    "prettier:fix": "prettier --write '**/*.{ts,tsx,js,mjs,cjs,jsx,json,yml}'",
+    "md": "markdownlint '**/*.md'",
+    "md:fix": "markdownlint --fix '**/*.md'"
+  },
+  "devDependencies": {
+    "@naverpay/editorconfig": "^1.0.0",
+    "@naverpay/eslint-config": "^2.3.1",
+    "@naverpay/markdown-lint": "^1.0.0",
+    "@naverpay/prettier-config": "^1.0.1",
+    "lefthook": "^1.12.2"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
