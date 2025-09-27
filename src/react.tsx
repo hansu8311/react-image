@@ -1,3 +1,1 @@
-function a (){
-    return <div></div>
-}
+export default const a = () => <div></div>
